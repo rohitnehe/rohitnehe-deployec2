@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "myDB";
+$servername = "php7.benchmarkit.solutions";
+$username = "advdemo";
+$password = "1P51aZ3TTTettTem";
+$dbname = "advdemo";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
