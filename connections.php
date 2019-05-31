@@ -1,5 +1,5 @@
 <?php
-$servername = "php7.benchmarkit.solutions";
+$servername = "advdemo.chsnmzlx99md.us-east-1.rds.amazonaws.com";
 $username = "advdemo";
 $password = "1P51aZ3TTTettTem";
 $dbname = "advdemo";
