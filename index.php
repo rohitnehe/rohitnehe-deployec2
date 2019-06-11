@@ -11,7 +11,7 @@ if ($result->num_rows > 0) {
 >>>>>>> 7db4a0a379e9e852f4cd92fe08238335fef46fce
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>".$row["id"]."</td><td>".$row["first_name"]."</td><td>".$row["last_name"]."</td><td>".$row["phone"]."</td></tr>";
+        echo "<tr><td>".$row["id"]."</td><td>".$row["first_name"]."</td><td>".$row["last_name"]."</td><td>".$row["mobile"]."</td></tr>";
     }
     echo "</table>";
 } else {
