@@ -4,6 +4,7 @@ include_once 'connections.php';
 $sql = "SELECT * FROM student";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
+    
 <<<<<<< HEAD
     echo "<table><tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Mobile Number</th></tr>";
 =======
@@ -25,5 +26,6 @@ table, th, td {
 }
 th, td {
   padding: 15px;
-}
+
+    }
 </style>
