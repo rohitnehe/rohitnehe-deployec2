@@ -1,4 +1,3 @@
-
 <?php
 include_once 'connections.php';
 $sql = "SELECT * FROM student";
